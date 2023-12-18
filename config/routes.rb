@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :sliders
+  resources :tags
+  resources :categories
+  resources :products
   namespace :admin do
     devise_for :users
   end
