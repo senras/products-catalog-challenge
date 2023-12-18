@@ -25,23 +25,21 @@ The server will be running on: http://127.0.0.1:3000/
 
 ### Gems & Libreries
     - Devise for authentication system.
-    - SweetAlert2      para flash messages (cdn).
-    - Bootstrap 5      para estilos.
+    - SweetAlert2      for flash messages (cdn).
+    - Bootstrap 5      for style.
     - Bootstrap Icons  
-    - sassc-rails      para Sass en Rails (dependencia  bootstrap).
-    - Will_paginate    para paginado de listas de elementos.
-    - groupdate        para agrupar por dates.
-    - ransack          para búsqueda.
-
-    - attr_encrypted   para autenticación.
-    - Cancancan        para autorización.
-    - Bcrypt           para cifrado de contraseñas.
+    - sassc-rails      for Sass in Rails (dependency for Bootstrap).
+    - Will_paginate    for pagination of lists of elements.
+    - ransack          for searching.
+    - attr_encrypted   for authentication.
+    - Cancancan        for authorization.
+    - Bcrypt           for password encryption.
 
 
 ### Design decisions - Backend
 
 ##### Administrar usuarios.
-    - Al ingresar hay una landing page de bienvenida con opción de sign up y sign in (con username y password). (?) Entonces se registra o no?
+    - Al ingresar hay una landing page de bienvenida con opción de sign up y sign in (con username y password).
     - Solo se puede crear usuarios desde el admin panel. Usuario existente en el seeds.
     - Perfil menu con logout y opcion de edición de perfil.
     - Un usario puede eliminar a otro usuario pero no a sí mismo.
