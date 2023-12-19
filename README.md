@@ -89,5 +89,5 @@ Detalle: Producto con todas sus características y mostrando todas las imágenes
 
 ### Pending tasks
 
-
+* Main navbar
 ****

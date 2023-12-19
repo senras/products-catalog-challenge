@@ -31,6 +31,12 @@ gem "jbuilder"
 
 gem 'devise'
 
+# Use sassc-rails for stylesheets 
+gem 'sassc-rails'
+
+# Use bootstrap for stylesheets
+gem 'bootstrap'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
