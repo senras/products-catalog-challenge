@@ -11,6 +11,12 @@
     </div>
   <% end %>
 
+
+  <div>
+    <%= form.label :Name, style: "display: block" %>
+    <%= form.text_field :Name %>
+  </div>
+
   <div>
     <%= form.label :Category, style: "display: block" %>
     <%= form.text_field :Category %>
@@ -21,10 +27,6 @@
     <%= form.text_field :Tag %>
   </div>
 
-  <div>
-    <%= form.label :Slider, style: "display: block" %>
-    <%= form.text_field :Slider %>
-  </div>
 
   <div>
     <%= form.submit %>

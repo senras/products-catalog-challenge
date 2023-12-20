@@ -1,0 +1,10 @@
+<!-- app/views/users/index.html.erb -->
+
+<h1>List of Users</h1>
+
+<ul>
+  <% @users.each do |user| %>
+    <li><%= user.email %></li> <!-- Assuming 'email' is a field in the User model -->
+    <!-- Display other user information as needed -->
+  <% end %>
+</ul>

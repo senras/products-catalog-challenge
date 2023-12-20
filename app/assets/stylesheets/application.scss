@@ -1,1 +1,22 @@
 @import 'bootstrap';
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li{
+        list-style: none;
+        margin: 0 10px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #3d3c3c;
+        font-size: 1.2rem;
+    }
+    a:hover{
+        color: #574949;
+    }
+}
