@@ -11,9 +11,24 @@
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
+    <%= render 'shared/navbar' %>   
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <%= render 'shared/sidebar' %>
+        </div>
+        <div class="col col-6">
+          2 of 3 (wider)
+          <%= yield %>
+        </div>
+        <div class="col">
+          white column
+        </div>
+      </div>
+    </div>
+
+
     <div class="container">
-      <%= yield %>
     </div>
 
   </body>
